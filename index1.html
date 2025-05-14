@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VersaFlex</title>
+    <!-- Linking to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>VersaFlex</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to VersaFlex</h2>
+            <p>Your flexibility, our innovation.</p>
+            <button onclick="learnMore()">Learn More</button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Consulting</h3>
+            <p>We provide expert consulting services to help businesses grow.</p>
+        </div>
+        <div class="service-item">
+            <h3>Flexibility Solutions</h3>
+            <p>Customized solutions to make your business more adaptable.</p>
+        </div>
+        <div class="service-item">
+            <h3>Support</h3>
+            <p>24/7 support for all your business needs.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 VersaFlex. All rights reserved.</p>
+    </footer>
+
+    <!-- Linking to the JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
